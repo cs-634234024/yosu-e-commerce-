@@ -1,11 +1,12 @@
 import { useState } from 'react'
+import {default as Router} from './routers'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-      <h1 className='text-red-500'> Haris sadeen </h1>
+      <Router/>
     </>
   )
 }
